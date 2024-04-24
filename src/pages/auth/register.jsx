@@ -152,7 +152,7 @@ return (
                 </button>}
             </div>
         </form>
-        <div className='form-login-google'>
+        {/* <div className='form-login-google'>
             <h1>OR Login</h1>
             <GoogleLogin
                 clientId={clientId}
@@ -161,7 +161,7 @@ return (
                 onFailure={responseGoogle}
                 cookiePolicy={'single_host_origin'}
             />
-        </div>
+        </div> */}
     </div>
     );
 };

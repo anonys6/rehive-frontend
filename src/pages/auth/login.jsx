@@ -104,7 +104,7 @@ const Login = () => {
                         </button>}
                 </div>
             </form>
-            <div className='form-login-google'>
+            {/* <div className='form-login-google'>
                 <h1>OR Login</h1>
                 <GoogleLogin
                     clientId={clientId}
@@ -113,7 +113,7 @@ const Login = () => {
                     onFailure={responseGoogle}
                     cookiePolicy={'single_host_origin'}
                 />
-            </div>
+            </div> */}
         </div>
     );
 };
